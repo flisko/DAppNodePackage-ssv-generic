@@ -2,12 +2,12 @@
   "upstream": [
     {
       "repo": "ssvlabs/ssv",
-      "version": "v2.2.0",
+      "version": "v2.0.2",
       "arg": "OPERATOR_UPSTREAM_VERSION"
     },
     {
       "repo": "ssvlabs/ssv-dkg",
-      "version": "v3.0.1",
+      "version": "v2.1.0",
       "arg": "DKG_UPSTREAM_VERSION"
     },
     {

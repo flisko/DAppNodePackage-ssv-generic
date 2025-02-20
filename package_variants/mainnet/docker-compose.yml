@@ -3,15 +3,15 @@ services:
     build:
       args:
         NETWORK: mainnet
-        P2P_TCP_PORT: 12517
-        P2P_UDP_PORT: 13517
+        P2P_TCP_PORT: 12516
+        P2P_UDP_PORT: 13516
     ports:
-      - 12517:12517/tcp
-      - 13517:13517/udp
+      - 12516:12516/tcp
+      - 13516:13516/udp
   dkg:
     build:
       args:
         NETWORK: mainnet
-        DKG_PORT: 14517
+        DKG_PORT: 14516
     ports:
-      - "14517:14517"
+      - "14516:14516"
